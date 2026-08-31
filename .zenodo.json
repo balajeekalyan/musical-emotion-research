@@ -1,0 +1,36 @@
+{
+  "upload_type": "software",
+  "title": "Where Musical Emotion Lives: analysis code for a source-separation study of arousal and valence",
+  "description": "<p>Analysis pipeline for the study <em>\"Arousal is envelope, valence is structure: a source-separation study of where musical emotion lives\"</em> (submitted to PeerJ Computer Science).</p><p>Every clip of the MERGE Audio Balanced corpus is separated into four stems with Hybrid Demucs, recombined into sixteen listening conditions, and modelled to ask where arousal and valence information lives — distinguishing <strong>sufficiency</strong> (a source predicts the label on its own) from <strong>necessity</strong> (removing it costs the model). Includes the separator benchmark, manifest construction, separation, feature extraction, model fitting, paired-bootstrap analysis, and the figure and table builders.</p><p>This repository is code only. The derived data it produces — features, per-track predictions, analysis tables, and track metadata — is deposited separately at DOI 10.5281/zenodo.21866703.</p>",
+  "creators": [
+    {
+      "name": "Kalyanasundaram, Balajee",
+      "affiliation": "Unaffiliated, Los Angeles, California, United States",
+      "orcid": "0009-0007-7292-2417"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "music emotion recognition",
+    "music information retrieval",
+    "source separation",
+    "arousal and valence",
+    "Demucs",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21866703",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.13939205",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}
